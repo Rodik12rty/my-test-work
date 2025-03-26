@@ -1,0 +1,29 @@
+.request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.ellipsis {
+    display: -webkit-box;  
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title {  
+    -webkit-line-clamp: 1;
+}
+
+.description {  
+    -webkit-line-clamp: 2;
+}
+
+.request__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

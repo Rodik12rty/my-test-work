@@ -1,0 +1,15 @@
+.myBtn {
+    padding: 5px 10px;
+    color: grey;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.myBtn:disabled,
+.myBtn[disabled]{
+  border: 1px solid #ebe8e8;
+  color: #bbb8b8;
+  cursor: not-allowed;
+}

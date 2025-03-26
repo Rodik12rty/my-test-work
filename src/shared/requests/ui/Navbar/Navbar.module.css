@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: lightgrey;
+}
+
+.navbar__links > a {
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar__links > a:hover {
+    background-color: black;
+    color: white;
+}
