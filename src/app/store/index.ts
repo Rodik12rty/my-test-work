@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { requestReducer } from "../../../entities/request/model/requestReducer";
+import { requestReducer } from "@/entities/request";
 
 export const rootReducers = combineReducers({
     request: requestReducer,

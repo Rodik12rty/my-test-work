@@ -1,6 +1,6 @@
-import { NewRequest } from "../features/requests/ui/NewRequest";
-import { Request } from "../pages/requests/ui/Request";
-import { MemoRequests } from "../pages/requests/ui/Requests";
+import { MemoRequests } from "@/pages/requests/ui/Requests";
+import { NewRequest } from "@/features/requests/create";
+import { Request } from "@/pages/requests/ui/Request";
 
 export const routes = [
     {path: '/', element: MemoRequests},

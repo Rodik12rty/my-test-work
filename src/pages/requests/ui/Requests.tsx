@@ -1,7 +1,7 @@
 import { memo } from "react";
-import { useTypedSelector } from "../../../shared/hooks/useTypedSelector";
-import { RequestList } from "../../../widgets/requests/ui/RequestList";
-import { MyLoader } from "../../../shared/requests/ui/Loader/MyLoader";
+import { useTypedSelector } from "@/shared/hooks/useTypedSelector";
+import { RequestList } from "@/widgets/requests";
+import { MyLoader } from "@/shared/ui/Loader/MyLoader";
 import classes from "./Requests.module.css";
 
 const Requests = () => {

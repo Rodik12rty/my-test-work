@@ -1,8 +1,8 @@
 import { useState, FormEvent } from "react";
-import { Request, CreateRequest } from "../../../../entities/request/model/requestType";
-import { Validate } from "../Validate/Validate";
-import { MyInput } from "../Input/MyInput";
-import { MyButton } from "../Button/MyButton";
+import { Request, CreateRequest } from "@/entities/request/index";
+import { Validate } from "@/shared/ui/Validate/Validate";
+import { MyInput } from "@/shared/ui/Input/MyInput";
+import { MyButton } from "@/shared/ui/Button/MyButton";
 import classes from "./RequestForm.module.css";
 
 interface IsDirtyType {

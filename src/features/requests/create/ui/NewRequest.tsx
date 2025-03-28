@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { useTypedDispatch } from "../../../shared/hooks/useTypedDispatch";
-import { addRequest } from "../../../entities/request/model/requestActions";
-import { CreateRequest } from "../../../entities/request/model/requestType";
-import { RequestForm } from "../../../shared/requests/ui/RequestForm/RequestForm";
+import { useTypedDispatch } from "@/shared/hooks/useTypedDispatch";
+import { addRequest, CreateRequest, RequestForm } from "@/entities/request";
 
 export const NewRequest = () => {
 

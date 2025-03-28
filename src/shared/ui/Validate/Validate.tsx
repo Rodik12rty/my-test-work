@@ -1,4 +1,4 @@
-import { useValidation } from "../../../hooks/useValidation";
+import { useValidation } from "@/shared/hooks/useValidation";
 import classes from "./Validate.module.css";
 
 export interface OptionsType {

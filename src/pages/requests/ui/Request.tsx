@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { useTypedDispatch } from "../../../shared/hooks/useTypedDispatch";
-import { useTypedSelector } from "../../../shared/hooks/useTypedSelector";
-import { deleteRequest, editRequest } from "../../../entities/request/model/requestActions";
-import { CreateRequest } from "../../../entities/request/model/requestType";
-import { MyLoader } from "../../../shared/requests/ui/Loader/MyLoader";
-import { MyButton } from "../../../shared/requests/ui/Button/MyButton";
-import { MyModal } from "../../../shared/requests/ui/Modal/MyModal";
-import { RequestForm } from "../../../shared/requests/ui/RequestForm/RequestForm";
-import { formatDate } from "../../../shared/lib/helpers/getCurrentDateTime";
+import { useTypedDispatch } from "@/shared/hooks/useTypedDispatch";
+import { useTypedSelector } from "@/shared/hooks/useTypedSelector";
+import { deleteRequest, editRequest, CreateRequest, RequestForm } from "@/entities/request";
+import { MyLoader } from "@/shared/ui/Loader/MyLoader";
+import { MyButton } from "@/shared/ui/Button/MyButton";
+import { MyModal } from "@/shared/ui/Modal/MyModal";
+import { formatDate } from "@/shared/lib/helpers/getCurrentDateTime";
 import classes from "./Request.module.css";
 
 export const Request = () => {

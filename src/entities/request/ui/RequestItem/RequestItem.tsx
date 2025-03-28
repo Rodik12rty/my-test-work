@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { useTypedDispatch } from "../../../shared/hooks/useTypedDispatch";
-import { deleteRequest } from "../model/requestActions";
-import { Request } from "../model/requestType";
-import { MyButton } from "../../../shared/requests/ui/Button/MyButton";
-import { formatDate } from "../../../shared/lib/helpers/getCurrentDateTime";
-import classes from "./RequestItem.module.css"; 
+import { useTypedDispatch } from "@/shared/hooks/useTypedDispatch";
+import { deleteRequest, Request } from "@/entities/request/index";
+import { MyButton } from "@/shared/ui/Button/MyButton";
+import { formatDate } from "@/shared/lib/helpers/getCurrentDateTime";
+import classes from "./RequestItem.module.css";
 
 interface RequestItemType {
     request: Request

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { OptionsType } from "../requests/ui/Validate/Validate";
+import { OptionsType } from "../ui/Validate/Validate";
 
 export const useValidation = (value: string, validations: OptionsType) => {
     

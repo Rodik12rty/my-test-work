@@ -1,5 +1,4 @@
-import { Request } from "../../../entities/request/model/requestType";
-import { RequestItem } from "../../../entities/request/ui/RequestItem";
+import { Request, RequestItem } from "@/entities/request";
 import classes from "./RequestList.module.css";
 
 interface RequestListType {
